@@ -1,4 +1,4 @@
-# Probabilistic programming in Python workshop 
+# Workshop: Probabilistic Programming using PyMC3 
 
 **Oslo universitetssykehus HF, June 14, 2015**
 
