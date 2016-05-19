@@ -44,6 +44,7 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * Hierarchical models of radon contamination
 * Global burden of disease
 * Survival modeling
+* Machine learning: Clustering and neural networks
 
 ## Software Installation
 
