@@ -21,9 +21,11 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 
 ### Introduction to PyMC3
 
+* Theano
 * Variable types
 * Step methods
 * Variational inference methods
+* Generalized linear models
 
 ### Model Building with PyMC3
 
