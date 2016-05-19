@@ -50,7 +50,7 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 
 ## Software Installation
 
-Running PyMC3 requires a working Python interpreter, either version 2.7 (or more recent) or 3.4 (or more recent); we recommend that new users install version 3.5. A complete Python installation for Mac OSX, Linux and Windows can most easily be obtained by downloading and installing the free [`Anaconda Python Distribution`](https://www.continuum.io/downloads) by ContinuumIO. 
+Running PyMC3 requires a working Python interpreter, either version 2.7 (or more recent) or 3.4 (or more recent); we recommend that new users install version 3.5 (but see special note below if you are a Windows user). A complete Python installation for Mac OSX, Linux and Windows can most easily be obtained by downloading and installing the free [`Anaconda Python Distribution`](https://www.continuum.io/downloads) by ContinuumIO. 
 
 `PyMC3` can be installed using [`pip`](https://pip.pypa.io/en/latest/installing.html). The following command will install the most recent working version directly from the GitHub repository:
 
