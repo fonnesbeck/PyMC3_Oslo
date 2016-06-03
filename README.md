@@ -21,14 +21,15 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 
 ### Introduction to PyMC3
 
-* Theano
 * Variable types
 * Step methods
+* Missing Data
 * Variational inference methods
 * Generalized linear models
 
 ### Model Building with PyMC3
 
+* Theano
 * Specifying priors and likelihoods
 * Deterministic variables
 * Custom variables
@@ -40,9 +41,11 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * Convergence diagnostics
 * Goodness of fit
 * Plotting and summarization
+* Seaborn
 
 ### Case Studies
 
+* BEST
 * Hierarchical models of radon contamination
 * Global burden of disease
 * Survival modeling
