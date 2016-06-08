@@ -24,16 +24,21 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * Variable types
 * Step methods
 * Missing Data
-* Variational inference methods
-* Generalized linear models
+
+### Hamiltonian Monte Carlo
+
+* Gradient-based sampling methods
+* Theano
 
 ### Model Building with PyMC3
 
-* Theano
 * Specifying priors and likelihoods
 * Deterministic variables
+* Factor potentials
 * Custom variables
-* Sampling and fitting
+* Generalized linear models
+
+### Variational Inference
 
 ### Model Checking and Output Processing
 
