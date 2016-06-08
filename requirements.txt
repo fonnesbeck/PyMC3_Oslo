@@ -1,0 +1,5 @@
+-e git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
+seaborn 
+patsy 
+pandas
+-e git+https://github.com/pydot/pydot-ng.git#egg=pydot_ng

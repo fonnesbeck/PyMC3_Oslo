@@ -60,27 +60,20 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 
 Running PyMC3 requires a working Python interpreter, either version 2.7 (or more recent) or 3.4 (or more recent); we recommend that new users install version 3.5 (but see special note below if you are a Windows user). A complete Python installation for Mac OSX, Linux and Windows can most easily be obtained by downloading and installing the free [`Anaconda Python Distribution`](https://www.continuum.io/downloads) by ContinuumIO. 
 
-`PyMC3` can be installed using [`pip`](https://pip.pypa.io/en/latest/installing.html). The following command will install the most recent working version directly from the GitHub repository:
+`PyMC3` can be installed using [`pip`](https://pip.pypa.io/en/latest/installing.html). PyMC3 also depends on several third-party Python packages which will be automatically installed when installing via pip. The four required dependencies are: `Theano`, `NumPy`, `SciPy`, `Matplotlib`, and `joblib`. To take full advantage of PyMC3, the optional dependencies `seaborn`, `pandas` and `Patsy` should also be installed. You can install PyMC3 and its dependencies by cloning this repository:
 
-```bash
-pip install git+https://github.com/pymc-devs/pymc3
+```
+git clone https://github.com/fonnesbeck/PyMC3_Oslo.git
 ```
 
-PyMC3 depends on several third-party Python packages which will be automatically installed when installing via pip. The four required dependencies are: `Theano`, `NumPy`, `SciPy`, `Matplotlib`, and `joblib`. 
-
-To take full advantage of PyMC3, the optional dependencies `seaborn`, `pandas` and `Patsy` should also be installed. These are *not* automatically installed, but can be installed by:
+Then move into the directory created by the clone, and install the required packages using pip:
 
 ```bash
-pip install seaborn patsy pandas
+cd PyMC3_Oslo
+pip install -r requirements.txt
 ```
 
-or, if you are running Anaconda, using the `conda` installer
-
-```bash
-conda install patsy pandas
-```
-
-Depending on which Anaconda installation you might have chosen, these may already have been installed.
+Depending on which Anaconda installation you might have chosen, several or all of the required packages may already have been installed.
 
 ### Windows Installation
 
