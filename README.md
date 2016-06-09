@@ -8,11 +8,11 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 
 | Time          | Activity                    |
 | --------------|-----------------------------|
-| 09:30-10:30 | **Introduction to PyMC3** |
+| 09:30-10:30 | **Introduction to PyMC3, MCMC** |
 | 10:30-10:45 | *Break* |
-| 10:45-11:45 | **Model Building with PyMC3** |
+| 10:45-11:45 | **Theano, Approximation Methods** |
 | 11:45-13:00 | *Lunch* |
-| 13:00-14:00 | **Model Checking and Output Processing** |
+| 13:00-14:00 | **Model Building with PyMC3, Model Checking** |
 | 14:00-14:15 | *Break* |
 | 14:15-15:15 | **Case Studies** |
 | 15:15-15:30 | *Wrap-up* |
