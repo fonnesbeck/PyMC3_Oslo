@@ -22,13 +22,25 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 ### Introduction to PyMC3
 
 * Variable types
-* Step methods
-* Missing Data
+* Probability models
+* Simple case studies
 
-### Hamiltonian Monte Carlo
+### Markov Chain Monte Carlo
 
+* Metropolis sampling
 * Gradient-based sampling methods
-* Theano
+
+### Theano
+
+* Tensors
+* Automatic differentiation
+* Operations
+
+### Approximation Methods
+
+* MAP
+* Variational inference
+* ADVI
 
 ### Model Building with PyMC3
 
@@ -36,9 +48,9 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * Deterministic variables
 * Factor potentials
 * Custom variables
+* Step methods
 * Generalized linear models
-
-### Variational Inference
+* Missing Data
 
 ### Model Checking and Output Processing
 
@@ -53,7 +65,6 @@ Probabilistic Programming allows for automatic Bayesian inference on user-define
 * BEST
 * Hierarchical models of radon contamination
 * Global burden of disease
-* Survival modeling
 * Machine learning: Clustering and neural networks
 
 ## Software Installation
