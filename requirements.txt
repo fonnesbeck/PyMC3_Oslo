@@ -2,4 +2,5 @@
 seaborn 
 patsy 
 pandas
+scikit-learn
 -e git+https://github.com/pydot/pydot-ng.git#egg=pydot_ng
