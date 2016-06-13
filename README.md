@@ -2,6 +2,8 @@
 
 **Oslo universitetssykehus HF, June 14, 2016**
 
+![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fonnesbeck/PyMC3_Oslo)
+
 Probabilistic Programming allows for automatic Bayesian inference on user-defined probabilistic models. Recent advances in Markov chain Monte Carlo (MCMC) sampling allow inference on increasingly complex models. This class of MCMC, known as Hamiltonian Monte Carlo, requires gradient information which is often not readily available. [PyMC3](https://github.com/pymc-devs/pymc3 "GitHub - pymc-devs/pymc3: Probabilistic Programming in Python. Uses Theano as a backend, supports NUTS and ADVI.") is a new open source Probabilistic Programming framework written in Python that uses [Theano](http://deeplearning.net/software/theano/ "Welcome &mdash; Theano 0.8.2 documentation") to compute gradients via automatic differentiation as well as compile probabilistic programs on-the-fly to C for better performance. Contrary to other Probabilistic Programming languages, PyMC3 allows model specification directly in Python code. This workshop will introduce new users to the PyMC3 package, and demonstrate how to implement and fit models.
 
 ## Schedule
