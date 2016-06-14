@@ -88,6 +88,8 @@ pip install -r requirements.txt
 
 Depending on which Anaconda installation you might have chosen, several or all of the required packages may already have been installed.
 
+**If you would rather not install the software yourself, you can use the MyBinder.org link at the top of the page to run the course materials on a remote server**
+
 ### Windows Installation
 
 If you are planning on using a Windows-based computer for the workshop, you may run into installation issues that are platform-specific. [Hans Olav has provided these instructions](http://datahans.blogspot.no/2016/04/installing-pymc3.html) for Windows users that may solve these issues.
